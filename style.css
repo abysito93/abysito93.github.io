@@ -8,12 +8,14 @@ body
 
 .header
 {
+    color: white;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 
 .content
 {
-    font-family: 'Lobster', cursive;
+    color: gray;
+    font-family: 'Rosario', sans-serif;
     font-size: 24px;
 }
