@@ -5,44 +5,66 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Rosario|Julius+Sans+One" rel="stylesheet">
         <link href="style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
 
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Projects</a>
             <a href="#">Experience</a>
             <a href="#">Contact</a>
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
-        <span onclick="openNav()">&#9776;</span>
+        <span onclick="openNav()">&#9776; Menu</span>
 
-        <div class="container">
-            <div class="header">
-                <h1>Abdiel Moran Ponce</h1>
-                <p>abdiel.moran@upr.edu</p>
-                <p><a href="https://github.com/abysito93">Github</a></p>
-            </div>
-            <div class="content">
-                <p id="main">I'm a student of the university of Arecibo currently majoring in Computer Programming, I've been developing since 2011. I started
-                    out using C++, then continued using Java and other languages. Now I am practicing with HTML and CSS for developing website.
-                    Been using the MEAN Stack for developing single page application since 2014, I find it very useful and simple. Been meaning to
-                    learn about Angular 2 since it's part of the MEAN and that's pretty much it. 
-                </p>
-            </div>
-            <script>
-                /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "250px";
-                }
 
-                /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                    document.getElementById("main").style.marginLeft = "0";
-                }
-            </script>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header" id="header">
+                        <h1>Abdiel Moran Ponce</h1>
+                        <p>abdiel.moran@upr.edu</p>
+                        <p><a href="https://github.com/abysito93">Github</a></p>
+                        <img src="us.jpeg" class="img-rounded" width="360" height="372">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content">
+                        <p id="main">I'm a student of the university of Arecibo currently majoring in Computer Programming, I've been developing since 2011. I started
+                            out using C++, then continued using Java and other languages. Now I am practicing with HTML and CSS for developing website.
+                            Been using the MEAN Stack for developing single page application since 2014, I find it very useful and simple. Been meaning to
+                            learn about Angular 2 since it's part of the MEAN and that's pretty much it. 
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lectus tortor. Sed eu sapien at mi finibus blandit eu quis erat. Fusce velit tellus, interdum ut faucibus molestie, consectetur sed lectus. Ut pulvinar tortor eget rutrum lacinia. Mauris ullamcorper iaculis efficitur. Nam tempor euismod sapien, vitae vulputate nibh iaculis vitae. Cras gravida ipsum tortor, ut vestibulum libero auctor in.
+
+                            Integer lobortis ullamcorper rhoncus. Suspendisse iaculis fringilla turpis, vel condimentum ex rutrum sit amet. Nam sit amet ipsum id nisi tristique iaculis ornare et urna. Duis feugiat tellus at sem pellentesque tristique. Nulla sem orci, vestibulum a porttitor eu, ultrices ac arcu. Etiam eget facilisis nunc. Nam maximus odio quis odio viverra, et tincidunt nisl tristique. Vivamus in tellus consequat, hendrerit enim id, ornare nulla. Maecenas eget nisi quis nunc porta rutrum ut id nisi. Nulla placerat sapien vitae ultrices ultrices.
+
+                            Aenean pharetra faucibus est eget viverra. Quisque ac nunc dapibus, hendrerit eros sed, porttitor metus. Proin ornare libero et quam hendrerit dapibus. Etiam facilisis nisi leo, quis faucibus purus porttitor laoreet. Nulla non augue ultrices, porta tellus at, dapibus quam. Integer at bibendum lectus. In rutrum velit in risus ultricies blandit.
+
+                            Aenean dapibus auctor consectetur. In eu nunc efficitur, aliquet risus a, interdum enim. Suspendisse eu nibh ac eros fermentum tristique eu at libero. Vivamus nisi sem, volutpat sed nisi eget, scelerisque bibendum massa. Fusce ut ante ligula. Donec eu lorem lectus. Sed et odio velit. In iaculis ut justo at molestie. Maecenas congue tincidunt egestas. Praesent id est suscipit, vulputate mi eu, viverra leo. Cras pharetra nec urna ut porta. Aliquam accumsan nulla tempus, tincidunt purus eu, vehicula est. Curabitur at ullamcorper ex.
+
+                            Aliquam tempus aliquet bibendum. Donec condimentum dolor sed nulla ultricies hendrerit eget at mi. Nunc vel arcu condimentum, dapibus sem id, egestas urna. Vivamus quis convallis nibh. Aenean pellentesque mauris dolor, at rutrum enim eleifend sed. Sed maximus, dolor id egestas gravida, nulla nisi convallis erat, tempor feugiat risus nunc ut elit. Aliquam nec mi et lacus placerat dapibus. Cras tincidunt bibendum felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <script>
+            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                document.getElementById("header").style.marginLeft = "250px";
+            }
+
+            /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+                document.getElementById("header").style.marginLeft = "0";
+            }
+        </script>
     </body>
 </html>

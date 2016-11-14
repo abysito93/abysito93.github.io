@@ -5,17 +5,25 @@ body
     background: linear-gradient(-45deg, #35577D, #141E30);
 }
 
-.header
+#header
 {
+    transition: margin-left .5s;    
     color: white;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 
 span {
+    font-family: 'Julius Sans One', sans-serif;
+    padding: .1em;
     font-size:30px;
     cursor:pointer;
     color:white;
+}
+
+.col-md-6 {
+    border: solid gray 2px;
+    border-radius: 10px;
 }
 
 /* The side navigation menu */
@@ -60,7 +68,7 @@ span {
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
-    padding: 20px;
+    padding: 5px;
     display: inline-block;
     text-align: center;
     color: gray;
