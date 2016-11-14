@@ -1,4 +1,4 @@
-html
+HTML
 
                 <!-- The overlay -->
         <div id="myNav" class="overlay">
@@ -19,7 +19,7 @@ html
         <!-- Use any element to open/show the overlay navigation menu -->
         <span onclick="openNav()">&#9776;</span>
 
-css
+CSS
 
 /* The Overlay (background) */
 .overlay {
@@ -78,6 +78,8 @@ css
         right: 35px;
     }
 }
+
+JAVASCRIPT
 
 <script>
             function openNav() {
