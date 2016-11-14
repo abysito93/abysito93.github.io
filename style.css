@@ -14,6 +14,7 @@ body
 }
 
 span {
+    position: fixed;
     font-family: 'Julius Sans One', sans-serif;
     padding: .1em;
     font-size:30px;
@@ -22,8 +23,15 @@ span {
 }
 
 .col-md-6 {
-    border: solid gray 2px;
-    border-radius: 10px;
+    top: 5em;
+    padding: .5em;
+}
+
+.col-md-6 .header {
+    position: fixed;
+    left: 7em;
+    top: 3em;
+    padding: .5em;
 }
 
 /* The side navigation menu */
