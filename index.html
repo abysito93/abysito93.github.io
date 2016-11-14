@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <title>Home</title>
     <meta charset="utf-8">
+    <title>Home</title>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Rosario|Julius+Sans+One" rel="stylesheet">
         <link href="style.css" type="text/css" rel="stylesheet">
@@ -16,15 +16,15 @@
         <!-- Overlay content -->
         <div class="overlay-content">
             <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
+            <a href="#">Projects</a>
+            <a href="#">Experience</a>
             <a href="#">Contact</a>
         </div>
 
         </div>
 
         <!-- Use any element to open/show the overlay navigation menu -->
-        <span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776;</span>
+        <span onclick="openNav()">&#9776;</span>
 
         <div class="container">
             <div class="header">
@@ -38,11 +38,14 @@
                     Been using the MEAN Stack for developing single page application since 2014, I find it very useful and simple. Been meaning to
                     learn about Angular 2 since it's part of the MEAN and that's pretty much it. 
                 </p>
-                <p id="exp">
-                    Experience:
-                </p>
-            <div>
-        </div>
-        <script src="nav.js"></script>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
     </body>
 </html>

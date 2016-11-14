@@ -1,6 +1,5 @@
 body
 {
-    margin: 5em;
     background: #141E30;
     background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
     background: linear-gradient(-45deg, #35577D, #141E30);
@@ -24,6 +23,12 @@ body
     border: 2px solid gray;
     border-radius: 10px;
     padding: 1em;
+}
+
+span {
+    font-size:30px;
+    cursor:pointer;
+    color:white;
 }
 
 /* The Overlay (background) */
@@ -52,6 +57,7 @@ body
 
 /* The navigation links inside the overlay */
 .overlay a {
+    font-family: 'Julius Sans One', sans-serif;
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
