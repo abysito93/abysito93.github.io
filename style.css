@@ -85,8 +85,6 @@ span {
     font-family: 'Rosario', sans-serif;
     font-size: 24px;
     width: 20em;
-    border: 2px solid gray;
-    border-radius: 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -95,7 +93,15 @@ span {
     .sidenav a {font-size: 18px;}
 }
 
-.footer p{
-    margin: 2em;
-    color: white;
+#footer p{
+    padding: 3em;
+    color: black;
+    float: left;
+}
+
+#footer .col-md-6 img{
+    margin-bottom: 5em;
+    width: 120px;
+    height: 120px;
+    float: right;
 }
